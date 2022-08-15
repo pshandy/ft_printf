@@ -25,7 +25,7 @@ int	ft_printf(const char *str, ...)
 int main(void)
 {
   ft_printf("Hello %s, do you have %d cookies?", "Djaisin", 42);
-  return (EXIT_SUCCESS);
+  return (0);
 }
 ```
 Which will print: 
